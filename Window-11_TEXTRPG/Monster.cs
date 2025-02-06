@@ -20,7 +20,7 @@ namespace Window_11_TEXTRPG
             this.type = type;
             this.hp = hp;
         }
-
+        //몬스터의 체력이 0이 되어 죽었는지 확인
         public bool IsDie() 
         {
             if (hp <= 0) 
