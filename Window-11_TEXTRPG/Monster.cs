@@ -13,6 +13,14 @@ namespace Window_11_TEXTRPG
         string type { get; set; }
         int hp { get; set; }
 
+        public Monster(string name, int level, string type, int hp)
+        {
+            this.name = name;
+            this.level = level;
+            this.type = type;
+            this.hp = hp;
+        }
+
         public bool IsDie() 
         {
             if (hp <= 0) 
